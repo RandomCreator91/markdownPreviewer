@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"
     integrity="sha512-hzyXu3u+VDu/7vpPjRKFp9w33Idx7pWWNazPm+aCMRu26yZXFCby1gn1JxevVv3LDwnSbyKrvLo3JNdi4Qx1ww=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
@@ -43,7 +42,9 @@ crossorigin="anonymous"
 ## Markdown Previewer Project
 
 (https://www.FreeCodeCamp.org).
+
 <dl>
+
 <dt>Definition list</dt>
 
 <dd>Is something people use sometimes.</dd>
@@ -54,9 +55,9 @@ crossorigin="anonymous"
 
 </dl>
 
-
 \`inlineCode Executing\`
 
+![Salvatronics](https://image.freepik.com/vektoren-kostenlos/flatcode-logo-sammlung_23-2148829940.jpg)
 
 
 - ListItem1
@@ -72,13 +73,10 @@ crossorigin="anonymous"
 - ListItem6
 
 - ListItem7
-
-
-
 > Learn to code for free with FreeCodeCamp
 
-
 \`\`\`
+
 function updatePreview(){
          
   let previewValue = document.getElementById("preview")
@@ -90,9 +88,11 @@ function updatePreview(){
   previewValue.innerHTML = markedHTML;
          
  }
- \`\`\`
 
-![Salvatronics](https://cdn.pixabay.com/photo/2019/08/29/18/51/earth-4439728_960_720.jpg)
+ \`\`\`
+ 
+ 
+ 
 
 **Bolded Text Footer Section**
 
@@ -118,20 +118,20 @@ function updatePreview(){
   <body onload ="loadFuncion()" class="bg-success">
     <div class="container-fluid">
       <div class="row">
-        <div class="col text-center text-white bg-success my-3">
+        <div class="text-center text-white bg-success my-3">
           <h1>A bounch of Text Markdown Previewer</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-6 bg-primary d-flex flex-column">
+        <div class="bg-primary d-flex flex-column">
           <h2 class ="text-white text-center my-3">The editor will be here.</h2>
         
           <div class ="form-group flex-grow-1 d-flex flex-column">
-          <textarea id="editor" onkeyup="updatePreview()" class ="form-control flex-grow-1"></textarea>
+          <textarea id="editor" onkeyup="updatePreview()" class ="form-control flex-grow-1 my-3"></textarea>
         </div>
         </div>
-        <div class="col-6 bg-danger">
-          <h2 class ="text-white text-center my-3">The Markdown Previewer will be here.</h2>
+        <div class="bg-danger">
+          <h2 class ="text-white text-center my-3 ">The Markdown Previewer will be here.</h2>
           <div id="preview"></div>
         </div>
       </div>
@@ -149,3 +149,4 @@ function updatePreview(){
    
   </body>
 </html>
+
